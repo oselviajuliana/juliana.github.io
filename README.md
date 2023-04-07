@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>GALLERY</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-image: url("WhatsApp Image 2023-04-07 at 10.06.56.jpg");
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      .container {
+        max-width: 1100px;
+        width: 100%;
+        padding: 40px 15px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      .heaeder {
+        margin: 30px 0;
+        overflow: hidden;
+      }
+      .heaeder img {
+        width: 10px;
+        height: 150px;
+        border-radius: 100%;
+        object-fit: cover;
+      }
+      .gallery {
+        margin: 50px o;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 25px;
+      }
+      .galler img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        border: 1px solid #eee;
+        box-shadow: 1px 2px #ddd;
+        border-radius: 10px;
+        box-sizing: border-box;
+      }
+      .footer {
+        margin: 40px 0;
+        overflow: hidden;
+      }
+      .footer h2 {
+        padding: 15px 0;
+        border-bottom: 2px SOLID #222;
+        display: inline-block;
+      }
+      .social svg {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        border-radius: 100px;
+      }
+      .social a.fb {
+        color: #0055bf;
+      }
+      .social a.ig {
+        color: #ff286d;
+      }
+
+      /* Responsive */
+      @media screen and (max-width: 768px) {
+        .gallery {
+          grid-template-columns: 1fr 1fr;
+        }
+        .gallery img {
+          height: 170px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Oselvia Gallery</h1>
+        <p>This is my dog photo gallery</p>
+      </div>
+      <div class="gallery">
+        <img src="IMG_8482.JPG" /><br />
+        <img src="IMG_8234.JPG" /><br />
+        <img src="IMG_8158.JPG" /><br />
+        <img src="IMG_8157.JPG" /><br />
+        <img src="IMG_8531.JPG" /><br />
+        <img src="IMG_8483.JPG" /><br />
+        <img src="IMG_8532.JPG" /><br />
+        <img src="IMG_8481.JPG" /><br />
+        <img src="IMG_8237.JPG" /><br />
+        <img src="IMG_8164.JPG" /><br />
+        <img src="IMG_8183.JPG" /><br />
+      </div>
+    
+      </div>
+    </div>
+  </body>
+</html>
